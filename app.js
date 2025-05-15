@@ -30,7 +30,7 @@ function makeGrid(count) {
 makeGrid(16);
 
 btn.addEventListener("click", () => {
-    const userCount = parseInt(prompt("How many squares? Max 99"));
+    const userCount = parseInt(prompt("How many squares? Max 100"));
     
     while (isNaN(userCount) || userCount < 1 || userCount > 100) {
         userCount = parseInt(prompt("Please enter a number between 1 and 100"));
