@@ -22,7 +22,7 @@ function makeGrid(count) {
 
     gridSquares.forEach(square => {
         square.addEventListener("mouseover", function() {
-            square.style.backgroundColor = "blue";
+            square.style.backgroundColor = "black";
         });
     });
 }
